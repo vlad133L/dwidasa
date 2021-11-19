@@ -282,4 +282,56 @@ h6 {
   border-radius: 4px;
 }
 
+.intro {
+  padding: 57px 0 63px 0;
+  background-color: #F7F7F7;
+}
+
+.intro__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro__pic source,
+.intro__pic img {
+  background-color: transparent;
+}
+
+.intro__text {
+  max-width: 520px;
+}
+.intro__text > *:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.intro__title span {
+  color: #EE4248;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1F2E35;
+}
+
+.intro__desc {
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+}
+.intro__desc > *:not(:last-child) {
+  margin-bottom: 40px;
+}
+.intro__desc-text1 span, .intro__desc-text2 span {
+  color: #EE4248;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+.intro {
+	padding: 57px 0 63px 0;
+	background-color: #F7F7F7;
+}
+
+
+.intro__row {
+	@include flex(space-between, center);
+}
+
+.intro__pic {
+
+	source,
+	img {
+		background-color: transparent;
+	}
+}
+
+.intro__text {
+	max-width: 520px;
+
+	&>*:not(:last-child) {
+		margin-bottom: 24px;
+	}
+}
+
+.intro__title {
+	span {
+		color: $pink;
+	}
+}
+
+.title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 133.69%;
+	color: $main;
+}
+
+.intro__desc {
+	font-size: 18px;
+	line-height: 150%;
+	color: $text;
+
+	&>*:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	&-text1,
+	&-text2 {
+		span {
+			color: $pink;
+		}
+	}
+}
