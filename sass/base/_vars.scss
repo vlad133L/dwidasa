@@ -1,0 +1,14 @@
+$accent:#30444E;
+$pink:#EE4248;
+$red:#DC2025;
+$black : #000000;
+$white: #ffffff;
+$dark-blue:#263238;
+$main:#1F2E35;
+$text:#30444E;
+
+@mixin flex ($jc, $ai) {
+	display: flex;
+	justify-content: $jc;
+	align-items: $ai;
+}
