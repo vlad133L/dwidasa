@@ -1,0 +1,57 @@
+.contacts {
+	padding: 28px 0 24px;
+}
+
+.company {
+	@include flex(flex-start, flex-end);
+}
+
+.company__address {
+	margin-right: 47px;
+}
+
+
+.company__logo {
+	margin-bottom: 10px;
+}
+
+.company__title {
+	margin-bottom: 8px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: $dark-blue;
+}
+
+.company__place {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.49;
+	color: $dark-blue;
+}
+
+.contact__title {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1.1666;
+	color: $dark-blue;
+	margin-bottom: 15px;
+}
+
+
+.getintouch {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.49;
+	color: $dark-blue;
+
+	a {
+		color: $dark-blue;
+		transition: color 0.2s ease-in;
+
+		&:hover {
+			text-decoration: underline;
+			color: $black;
+		}
+	}
+}

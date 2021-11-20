@@ -421,4 +421,78 @@ h6 {
   color: #ffffff;
 }
 
+.contacts {
+  padding: 28px 0 24px;
+}
+
+.company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.company__address {
+  margin-right: 47px;
+}
+
+.company__logo {
+  margin-bottom: 10px;
+}
+
+.company__title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #263238;
+}
+
+.company__place {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.49;
+  color: #263238;
+}
+
+.contact__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.1666;
+  color: #263238;
+  margin-bottom: 15px;
+}
+
+.getintouch {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.49;
+  color: #263238;
+}
+.getintouch a {
+  color: #263238;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+.getintouch a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.footer {
+  background-color: #EE4248;
+  padding: 22px 0 21px;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=main.css.map */
