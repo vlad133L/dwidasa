@@ -2,9 +2,9 @@
 	padding: 110px 0 160px 0;
 }
 
-.tech {}
-
-.container {}
+.tech.fix {
+	padding-top: 210px;
+}
 
 .tech__row {
 	@include flex(space-between, center);

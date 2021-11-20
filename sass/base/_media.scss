@@ -1,0 +1,29 @@
+@media (max-width:992px) {
+	.mobile-nav-button {
+		display: block;
+	}
+
+	.nav,
+	.header__links {
+		display: none;
+	}
+
+	.mobile-nav {
+		&__item:not(:last-child) {
+			margin-bottom: 18px;
+		}
+
+		&__link {
+			color: $black;
+			font-size: 21px;
+		}
+
+		&__links {
+			@include flex(flex-start, center);
+
+			&>*:not(:last-child) {
+				margin-right: 15px;
+			}
+		}
+	}
+}
