@@ -26,4 +26,116 @@
 			}
 		}
 	}
+
+	.tech__row {
+		flex-wrap: wrap;
+	}
+
+
+	.info {
+		&__title {
+			font-size: 40px;
+		}
+
+		&__desc {
+			font-size: 17px;
+		}
+
+		&__btn {
+			height: 46px;
+		}
+	}
+
+	.technology {
+		padding: 80px 0 100px;
+	}
+
+	.tech.fix {
+		padding-top: 180px;
+	}
+
+	.tech__pic {
+		margin: 40px auto 0;
+
+		picture {
+
+			img,
+			source {
+				width: 100%;
+			}
+		}
+	}
+
+	.intro__row {
+		flex-wrap: wrap-reverse;
+	}
+
+	.intro__pic {
+		margin: 40px auto 0;
+
+		picture {
+
+			img,
+			source {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width:768px) {
+	.technology {
+		padding-top: 65px;
+		padding-bottom: 80px;
+	}
+
+	.tech.fix {
+		padding-top: 165px;
+	}
+
+	.info {
+		&__title {
+			font-size: 32px;
+		}
+
+		&__desc {
+			font-size: 16px;
+		}
+	}
+
+	.offers {
+		padding: 60px 0;
+
+		&__row {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+
+	.item {
+		flex: 0 1 100%;
+	}
+
+	.item__pic,
+	.offer__title,
+	.offer__desc {
+		text-align: center;
+	}
+
+	.offer__btn {
+		margin: 0 auto;
+	}
+
+	.company {
+		flex-wrap: wrap;
+
+		&__address {
+			flex: 0 1 100%;
+			margin-bottom: 20px;
+		}
+	}
+
+	.contacts {
+		padding-top: 0;
+	}
 }
